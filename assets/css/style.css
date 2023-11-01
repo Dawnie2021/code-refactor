@@ -107,24 +107,9 @@ p {
 }
 
 /* added back the orginal class names */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* refactored the css and removed duplicate rules */
+.search-engine-optimization 
+.online-reputation-management 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -134,29 +119,21 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization 
+.online-reputation-management 
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
+.search-engine-optimization 
 .online-reputation-management 
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
 /* changed the footer class to a footer element */
 footer {
     padding: 30px;
@@ -164,7 +141,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h2 {
+/* changed the footer h2 to an h4 */
+footer h4 {
     font-size: 20px;
 }
